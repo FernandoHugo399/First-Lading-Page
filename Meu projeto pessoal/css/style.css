@@ -177,3 +177,26 @@ header{
 .container-arrow{
     text-align: center;
 }
+
+.container-1{
+    padding: 90px 0;
+}
+
+.container-1 h2{
+    text-align: center;
+    font-weight: normal;
+}
+
+.container-section{
+    text-align: center;
+}
+
+.container-single{
+    float: left;
+    width: 33%;
+    padding: 30px;
+}
+
+.container-single p{
+    text-align: justify;
+}
