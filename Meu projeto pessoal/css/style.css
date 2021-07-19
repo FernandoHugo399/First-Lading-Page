@@ -115,12 +115,12 @@ header{
 }
 
 .sessoes{
-    width: 650px;
+    width: 550px;
     height: 300px;
     background-color: rgba(33, 35, 66, 0.637);
     float: left;
     position: relative;
-    top: 10px;
+    top: 100px;
     
 }
 
@@ -178,25 +178,45 @@ header{
     text-align: center;
 }
 
-.container-1{
-    padding: 90px 0;
+.container-two{
+    height: 350px;
+    color: #472663;
 }
 
-.container-1 h2{
+.container-two h2{
+    margin: 90px 0;
     text-align: center;
     font-weight: normal;
 }
 
-.container-section{
+.topic-container-two{
     text-align: center;
-}
-
-.container-single{
+    width: 33.33%;
+    padding: 10px 25px;
     float: left;
-    width: 33%;
-    padding: 30px;
 }
 
-.container-single p{
+.topic-container-two h3{
+    font-weight: normal;
+    margin: 8px 0;
+}
+
+.topic-container-two p{
+    margin: 0 auto;
     text-align: justify;
+    width:90%;
+    color: rgb(112, 112, 112);
+}
+
+hr{
+    border-color: #ccc;
+    border-width: 2px;
+    margin: 70px 0;
+    width: 100%;
+}
+
+.container-creditos{
+    text-align: center;
+    padding-bottom: 50px;
+    color: rgb(112, 112, 112);
 }
