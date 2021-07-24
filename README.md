@@ -1,2 +1,2 @@
 # Primeira lading page
-Projeto para Treinar responsivo
+Projeto para Treinamento deresponsivo
