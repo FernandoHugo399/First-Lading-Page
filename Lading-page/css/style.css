@@ -25,11 +25,12 @@ html, body{
     color: white;
     font-family: 'Open Sansl';
     padding: 16px 0 16px 12%;
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .container-main{
     padding-top: 80px;
+    padding-bottom: 60px;
     width: 100%;
     width: auto;
     background-size: cover;
@@ -42,23 +43,37 @@ html, body{
     width: 80%;
 }
 
-.section-container-main{
+.list-container-main{
     background-color: #262b486c;
-    max-width: 450px;
+    max-width: 470px;
     width: 100%;
     padding: 30px 0;
     float: left;
 }
 
-.section-container-main ul li{
+.list-container-main ul li{
     list-style-position: inside;
-    color: white;
-    font-size: 16px;
-    font-weight: normal;
+    color: rgba(255, 255, 255, 0.808);
+    font-size: 17px;
+    font-weight: 300;
     font-family: Arial, Helvetica, sans-serif;
     padding: 12px 0 12px 40px;
     
 }
+
+.form-container-main{
+    position: relative;
+    width: 100%;
+    max-width: 380px;
+    height: 500px;
+    background-color: white;
+    float: right;
+    right: 20px;
+    top: -90px;
+    border: 10px solid rgba(204, 204, 204, 0.61);
+    background-clip: content-box;
+}
 .clear{
     clear: both;
 }
+
