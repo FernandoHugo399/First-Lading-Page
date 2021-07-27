@@ -14,6 +14,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Opens SansL';
 }
 
 html, body{
@@ -23,12 +24,11 @@ html, body{
 .logo{
     background-color: #212343;
     color: white;
-    font-family: 'Open Sansl';
     padding: 16px 0 16px 12%;
     font-size: 24px;
 }
 
-.container-main{
+.first-container-main{
     
     padding-bottom: 60px;
     width: 100%;
@@ -79,14 +79,12 @@ html, body{
     text-align: center;
     margin: 18px 0;
     font-weight: bold;
-    font-family: 'Opens Sansl';
     font-size: 22px;
     color: #b8b8b8;
 }
 
 .input-form{
     color: #b8b8b8;
-    font-family: 'Opens Sansl';
 }
 
 .input-form span{
@@ -124,8 +122,43 @@ html, body{
     background-color: #191b33;
 }
 
-
 .clear{
     clear: both;
 }
 
+.second-container-main{
+    width: 100%;
+    background-color: #DDDDDD;
+}
+
+.second-center{
+    width: 80%;
+    max-width: 768px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0 60px 0;
+    text-align: center;
+}
+
+
+.second-center h2{
+    font-weight: lighter;
+    padding: 25px 0;
+}
+
+.second-center p{
+    padding:20px 0;
+    text-align: justify;
+    
+}
+
+.arrow{
+    background-image: url(../imagem/arrow.png);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    bottom: -80px;
+    left: calc(50% - 20px);
+    
+}
