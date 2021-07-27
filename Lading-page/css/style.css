@@ -162,3 +162,32 @@ html, body{
     left: calc(50% - 20px);
     
 }
+
+.third-container-main{
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+    text-align: center;
+    padding-top: 70px;
+}
+
+.third-container-main h2{
+    font-weight: lighter;
+    padding-bottom: 50px;
+}
+
+.third-center{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.content{
+    width: 33.3%;
+    float: left;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-bottom: 30px;
+}
+
+.content p{
+    text-align: justify;
+}
