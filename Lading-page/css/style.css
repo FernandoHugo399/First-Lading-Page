@@ -36,11 +36,14 @@ html, body{
     background-size: cover;
     background-position: center;
     background-image: url(../imagem/main_bg.png);
+    text-align: center;
 }
 
 .center{
     margin: 0 auto;
     width: 80%;
+    text-align: center;
+    display: inline-block;
 }
 
 .list-container-main{
@@ -216,4 +219,56 @@ html, body{
     display: inline-block;
     margin-bottom: 50px;
     color: #666666;
+}
+
+@media screen and (max-width:1160px){
+    .list-container-main{
+        background-color: #262b486c;
+        max-width: 380px;
+        width: 100%;
+        padding: 30px 0;
+        float: left;
+        position: relative;
+        top: 100px;
+        left: -50px;
+   }
+   .list-container-main ul li{
+    padding: 12px 0 12px 12px;
+    
+}
+   
+}
+@media screen and (max-width:970px){
+    .logo{
+        text-align: center;
+        padding: 16px 0;
+        
+    }
+
+    .list-container-main{
+        
+        display: inline-block;
+        margin-bottom: 100px;
+        position: relative;
+        float: none;
+        left: 0;
+        
+   }
+   .list-container-main ul li{
+    padding: 12px 0 12px 12px;
+    
+}
+
+   .form-container-main{
+    margin-top: 50px;
+    display: inline-block;
+    position: relative;
+    float: none;
+    left: 0;
+
+}
+}
+
+@media screen and (max-width:768px){
+    
 }
