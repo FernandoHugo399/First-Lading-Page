@@ -1,4 +1,4 @@
-# Minha Primeira Lading Page 
+# First Lading Page 
 ![part1](https://user-images.githubusercontent.com/87580316/127213264-bd0f5552-8323-477a-82f0-d110b1370414.jpg)
 ![part2](https://user-images.githubusercontent.com/87580316/127213503-bf3aa4c8-218c-42f9-8f06-8f97b44d1118.jpg)
 ---
