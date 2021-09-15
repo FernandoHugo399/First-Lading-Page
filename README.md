@@ -3,7 +3,7 @@
 ![part2](https://user-images.githubusercontent.com/87580316/127213503-bf3aa4c8-218c-42f9-8f06-8f97b44d1118.jpg)
 ---
 ## :mag: About 
-Project based on one of the practical projects of the danki code course
+project made to practice responsive design
 
 ## :rocket: Technologies used:
 <p align="center">
